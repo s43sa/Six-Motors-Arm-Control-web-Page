@@ -8,4 +8,4 @@ the list of files:
 
 2- motorsdatabase.sql include the database with tables.
 
-3- index.php include connection code to connect to the database and sql queries whith php code.
+3- index.php include connection code to connect to the database and sql queries by php code.
