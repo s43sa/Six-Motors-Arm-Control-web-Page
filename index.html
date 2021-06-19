@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Control</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+  .slidecontainer {
+  width: 80%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #5c5c5c;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #686868;
+  cursor: pointer;
+}
+
+
+
+body {
+  background: content-box radial-gradient(rgb(255, 255, 255), rgb(174, 135, 209));
+ 
+ 
+}
+.box {
+  border-style: inset;
+	border-width: 20px;
+	border-color: rgb(174, 94, 221);
+  }
+
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  -ms-transform: translate(-40%, -40%);
+  transform: translate(-40%, -40%);
+}
+.centertext1 {
+  margin: 0;
+  position: absolute;
+  top: 26%;
+  left: 67%;
+  -ms-transform: translate(-60%, -60%);
+  transform: translate(-60%, -60%);
+}
+.centertext2 {
+  margin: 0;
+  position: absolute;
+  top: 36%;
+  left: 67%;
+  -ms-transform: translate(-60%, -60%);
+  transform: translate(-60%, -60%);
+}
+
+.centertext3 {
+  margin: 0;
+  position: absolute;
+  top: 46%;
+  left: 67%;
+  -ms-transform: translate(-60%, -60%);
+  transform: translate(-60%, -60%);
+}
+.centertext4 {
+  margin: 0;
+  position: absolute;
+  top: 56%;
+  left: 67%;
+  -ms-transform: translate(-60%, -60%);
+  transform: translate(-60%, -60%);
+}
+.centertext5 {
+  margin: 0;
+  position: absolute;
+  top: 66%;
+  left: 67%;
+  -ms-transform: translate(-60%, -60%);
+  transform: translate(-60%, -60%);
+}
+.centertext6 {
+  margin: 0;
+  position: absolute;
+  top: 76%;
+  left: 67%;
+  -ms-transform: translate(-60%, -60%);
+  transform: translate(-60%, -60%);
+}
+.center1 {
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  -ms-transform: translate(-60%, -60%);
+  transform: translate(-60%, -60%);
+}
+.center2 {
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  -ms-transform: translate(-60%, -60%);
+  transform: translate(-60%, -60%);
+}
+.center3 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  -ms-transform: translate(-60%, -60%);
+  transform: translate(-60%, -60%);
+}
+
+.center4 {
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  -ms-transform: translate(-60%, -60%);
+  transform: translate(-60%, -60%);
+}
+
+.center5 {
+  margin: 0;
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  -ms-transform: translate(-60%, -60%);
+  transform: translate(-60%, -60%);
+}
+
+.center6 {
+  margin: 0;
+  position: absolute;
+  top: 80%;
+  left: 60%;
+  -ms-transform: translate(-60%, -60%);
+  transform: translate(-60%, -60%);
+}
+</style>
+</head>
+<body>
+  <form id="Formmm" action="index.php" method = "POST" target="dummyframe">
+
+  <div class="centertext1">
+  <p><strong>محرك 1</strong></p>
+</div>
+<div class="centertext2">
+  <p><strong>محرك 2</strong></p>
+</div>
+
+<div class="centertext3">
+  <p><strong>محرك 3</strong></p>
+</div>
+<div class="centertext4">
+  <p><strong>محرك 4</strong></p>
+</div>
+<div class="centertext5">
+  <p><strong>محرك 5</strong></p>
+</div>
+<div class="centertext6">
+  <p><strong>محرك 6</strong></p>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="box"></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="box"></div>
+  <div class="slidecontainer">
+    <div class="center1">
+    <input type="range" min="0" max="180" value="90" class="slider" id="myRange">
+    <p>Value: <span id="demo"></span></p>
+  </div>
+
+  <div class="slidecontainer">
+    <div class="center2">
+    <input type="range" min="0" max="180" value="90" class="slider" id="myRangee">
+    <p>Value: <span id="demoo"></span></p>
+  </div>
+
+  <div class="slidecontainer">
+    <div class="center3">
+    <input type="range" min="0" max="180" value="90" class="slider" id="myRange1">
+    <p>Value: <span id="demo1"></span></p>
+  </div>
+
+  <div class="slidecontainer">
+    <div class="center4">
+    <input type="range" min="0" max="180" value="90" class="slider" id="myRange2">
+    <p>Value: <span id="demo2"></span></p>
+  </div>
+  <div class="slidecontainer">
+    <div class="center5">
+    <input type="range" min="0" max="180" value="90" class="slider" id="myRange3">
+    <p>Value: <span id="demo3"></span></p>
+  </div>
+  <div class="slidecontainer">
+    <div class="center6">
+    <input type="range" min="0" max="180" value="90" class="slider" id="myRange4">
+    <p>Value: <span id="demo4"></span></p>
+  </div>
+</div> 
+
+<div class="center">
+  <br><br>
+<input type="submit" value = "SAVE" name = save  style="font-size: 25px; background: rgb(192, 191, 191); border-radius: 35px;" > 
+<br><br>
+<input type="submit" value = "ON" name = on  style="font-size: 25px; background: rgb(192, 191, 191); border-radius: 35px;" > 
+<br><br>
+<input type="submit" value = "OFF" name = off  style="font-size: 25px; background: rgb(192, 191, 191); border-radius: 35px;" > 
+ 
+ 
+</div>
+</div>
+
+<script>
+  var slider = document.getElementById("myRange");
+  var sliderr = document.getElementById("myRangee");
+  var slider1 = document.getElementById("myRange1");
+  var output = document.getElementById("demo");
+  var outputt = document.getElementById("demoo");
+  var output1 = document.getElementById("demo1");
+  var slider2 = document.getElementById("myRange2");
+  var slider3 = document.getElementById("myRange3");
+  var slider4 = document.getElementById("myRange4");
+  var output2 = document.getElementById("demo2");
+  var output3 = document.getElementById("demo3");
+  var output4 = document.getElementById("demo4");
+
+
+  output.innerHTML = slider.value;
+  outputt.innerHTML = sliderr.value;
+  output1.innerHTML = slider1.value;
+  output2.innerHTML = slider2.value;
+  output3.innerHTML = slider3.value;
+  output4.innerHTML = slider4.value;
+
+  slider.oninput = function() {
+    output.innerHTML = this.value;
+  }
+  sliderr.oninput = function() {
+    outputt.innerHTML = this.value;
+  }
+  slider1.oninput = function() {
+    output1.innerHTML = this.value;
+  }
+  slider2.oninput = function() {
+    output2.innerHTML = this.value;
+  }
+  slider3.oninput = function() {
+    output3.innerHTML = this.value;
+  }
+  slider4.oninput = function() {
+    output4.innerHTML = this.value;
+  }
+  </script>
+ </form>
+</body>
+</html>
